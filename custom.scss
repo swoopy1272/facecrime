@@ -1,0 +1,14 @@
+// Facecrime Testing Colors
+$facecrimetest-base-color: #332b19;
+$facecrimetest-primary-color: #c8b59b;
+$facecrimetest-secondary-color: #e8e0d9;
+$facecrimetest-highlight-color: #d9742b;
+
+// Tell UI to use selected colors
+$ui-base-color: $facecrimetest-base-color !default;
+$ui-base-lighter-color: lighten($ui-base-color, 26%) !default;
+$ui-primary-color: $facecrimetest-primary-color !default;
+$ui-secondary-color: $facecrimetest-secondary-color !default;
+$ui-highlight-color: $facecrimetest-highlight-color !default;
+
+@import 'application';
